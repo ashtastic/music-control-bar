@@ -30,6 +30,7 @@ body {
   color: #333;
 
   position: relative;
+  overflow: hidden;
 }
 
 .song {
@@ -46,13 +47,16 @@ body {
 
 .album {
 position: absolute;
-left: 0;
 top: 0;
-overflow: hidden;
+left: 0;
+height: 100%;
+float: left;
 }
 
 .time {
-
+position: absolute;
+bottom: 0;
+width: 100%;
 }
 
 .time-bar {
