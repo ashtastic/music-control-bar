@@ -51,13 +51,13 @@ top: 0;
 left: 0;
 height: 100%;
 float: left;
+z-index: 7;
 }
 
 .time {
-position: absolute;
-bottom: 0;
-width: 100%;
+
 }
+
 
 .time-bar {
   height: 8px;
@@ -67,6 +67,11 @@ width: 100%;
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  right: 0;
 }
 
 /*
