@@ -99,7 +99,7 @@ height: 100%;
 
   position: absolute;
   bottom: 10px;
-  left: 75px;
+  left: 55px;
 }
 
 .controls {
@@ -113,15 +113,20 @@ height: 100%;
 
 .control-shuffle {
   position: absolute;
-  left: 75px;
-  top: 10px;
+  left: 55px;
+  top: 5px;
   font-size: 1rem;
 }
 
 .control-list {
-
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
 .control-heart {
-
+  position: absolute;
+  top: 7px;
+  right: 35px;
+  font-size: 1.2rem;
 }
