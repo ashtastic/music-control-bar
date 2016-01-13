@@ -30,7 +30,7 @@ body {
   color: #333;
 
   position: relative;
-  overflow: hidden;
+  padding-left: 6.5em;
 }
 
 .song {
@@ -50,14 +50,22 @@ position: absolute;
 top: 0;
 left: 0;
 height: 100%;
-float: left;
-z-index: 7;
 }
 
 .time {
 
+
 }
 
+.time-lapsed {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.time-total {
+  right
+}
 
 .time-bar {
   height: 8px;
@@ -70,8 +78,11 @@ z-index: 7;
 
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
-  right: 0;
+}
+
+.control-shuffle {
 }
 
 /*
